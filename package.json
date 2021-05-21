@@ -1,0 +1,22 @@
+{
+  "name": "aws_iot_core_mqtt_over_websocket",
+  "version": "1.0.0",
+  "description": "Basic example Websocket connect to AWS IoT Core MQTT using Signature V4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pringtest@github.com/pringtest/AWS_IoT_Core_MQTT_Over_Websocket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pringtest/AWS_IoT_Core_MQTT_Over_Websocket/issues"
+  },
+  "homepage": "https://github.com/pringtest/AWS_IoT_Core_MQTT_Over_Websocket#readme",
+  "dependencies": {
+    "mqtt": "^4.2.6"
+  }
+}
