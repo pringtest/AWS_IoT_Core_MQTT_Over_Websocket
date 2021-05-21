@@ -13,7 +13,7 @@ This repo uses open source projects to work properly:
 - Requires latest [Node.js][node.js] to run.
 - Requires latest [AWS CLI][AWS CLI] to run.
 
-Fill up `IotCoreEndPoint` and `canonicalQuerystring` in index.js
+Fill up `IotCoreEndPoint`, `topicSub` and `canonicalQuerystring` in index.js
 
 Install the dependencies and devDependencies.
 ```sh

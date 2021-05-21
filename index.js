@@ -1,6 +1,7 @@
 var mqtt = require('mqtt')
 
 var IotCoreEndPoint = 'wss://********-ats.iot.ap-southeast-1.amazonaws.com/mqtt'
+var topicSub = 'example/data-telemetry/#'
 var client = null
 
 main(); // run main
@@ -21,7 +22,7 @@ async function websocketSigV4 (params) {
     client  = mqtt.connect(`${IotCoreEndPoint}?${canonicalQuerystring}`)
 
     client.on('connect', function () {
-      client.subscribe('dt-maevib/#', function (err) {
+      client.subscribe(topicSub, function (err) {
         if (!err) {
           console.log("connected using sigv4")
           console.log(canonicalQuerystring)
